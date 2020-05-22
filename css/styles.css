@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Balsamiq Sans", cursive, sans-serif;
+  background-color: #d8dae6;
+}
+
+.body-bg {
+  position: relative;
+  background-color: #fdfdfe;
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 400px;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.body-main {
+  position: absolute;
+  background-color: #f8f8f8;
+  width: 90%;
+  height: 95%;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 21px 18px 61px 4px rgba(112, 108, 112, 1);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px 40px 15px;
+}
+
+.main__header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.main__input input {
+  position: relative;
+  width: 90%;
+  margin: 20px 0px 10px 0px;
+  padding: 15px 0px 20px 15px;
+  border-radius: 10px;
+  border: 1px solid #b5b5b5;
+}
+
+.main__input .main__password-forgot {
+  right: 20px;
+  position: absolute;
+  color: #ea7380;
+}
+
+.main__remember {
+  margin-top: 25px;
+  color: #b5b5b5;
+}
+.main__remember i {
+  color: red;
+  border: 1px solid #b5b5b5;
+}
+
+.main__sign {
+  text-align: center;
+  margin-left: 5px;
+  color: white;
+  margin-top: 50px;
+  width: 90%;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  padding: 20px 5px;
+  background-color: #e2283e;
+}
+
+.main__sns {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main__sns .main__sns-facebook {
+  margin-right: 15px;
+  padding: 20px 40px;
+  background-color: #475a95;
+  border-radius: 50px;
+  color: white;
+}
+
+.main__sns .main__sns-twitter {
+  margin-right: 15px;
+  padding: 20px 50px;
+  background-color: #5da1f2;
+  border-radius: 50px;
+  color: white;
+}
+
+.bottom__id {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #b5b5b5;
+}
+
+.bottom__id .bottom__id-make {
+  margin-bottom: 10px;
+}
+
+.bottom__id span {
+  color: #ea7380;
+}
